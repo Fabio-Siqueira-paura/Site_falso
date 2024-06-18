@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect
 
+#primeiro instale o flask(pip install flask)
 app = Flask(__name__)
 
 @app.route("/")
